@@ -1,66 +1,78 @@
+#Question 1
+#Name=str(input("Enter your name:"))
+#street_number=int(input("Enter your street number:"))
+#street_name=str(input("Enter your street name:"))
+#Area=str(input("Enter your area:"))
+#Pincode=int(input("Enter the Pincode:"))
+
+#print("YOUR ADDRESS IS:")
+#print(Name)
+#print(street_number)
+#print(street_number)
+#print(Area)
+#print(Pincode)
 
 
 
+#Question 2
+#first_number=int(input("Enter your first number:"))
+#second_number=int(input("Enter your second number:"))
 
-Question 2
-first_number=int(input("Enter your first number:"))
-second_number=int(input("Enter your second number:"))
+#operation=str(input("Enter the operation required:"))
 
-operation=str(input("Enter the operation required:"))
-
-if operation=="Addition":
-    print(first_number+second_number)
-elif operation=="Subraction":
-    print(first_number-second_number)
-elif operation=="Multiplication":
-    print(first_number*second_number)
-elif operation=="Division":
-    print(first_number/second_number)
-elif operation=="reminder":
-    print(first_number%second_number)
-elif operation=="quotient":
-    print((first_number//second_number))
-else:
-    print("INVAILD OPERATION ENTERED")
+#if operation=="Addition":
+#    print(first_number+second_number)
+#elif operation=="Subraction":
+#    print(first_number-second_number)
+#elif operation=="Multiplication":
+#    print(first_number*second_number)
+#elif operation=="Division":
+#    print(first_number/second_number)
+#elif operation=="reminder":
+#    print(first_number%second_number)
+#elif operation=="quotient":
+#    print((first_number//second_number))
+#else:
+#    print("INVAILD OPERATION ENTERED")
 
 #Question 3
-distance=float(input("Enter the distance"))
-units=str(input("Enter the units (Kilometer/Miles):"))
-
-if units=="Kilometer":
-    print("Distance in miles is:")
-    print(distance*0.621371)
-elif units=="Miles":
-    print("Distance in Kilometers is:")
-    print(distance/0.621371)
-else:
-    print("INVALID UNIT")
+#distance=float(input("Enter the distance"))
+#units=str(input("Enter the units (Kilometer/Miles):"))
+#
+#if units=="Kilometer":
+#    print("Distance in miles is:")
+#    print(distance*0.621371)
+#elif units=="Miles":
+#    print("Distance in Kilometers is:")
+#    print(distance/0.621371)
+#else:
+#    print("INVALID UNIT")
 
 #Question 4
-temperature=float(input("Enter the temperature:"))
-units=str(input("Enter the units(fahrenhiet/Celsius):"))
-
-if units=="fahrenhiet":
-    print("the temperature in Celsius is:")
-    print((temperature-32)*(5/9))
-if units=="Celsius":
-    print("temperature in fahrenhite is:")
-    print((temperature*(9/5))+32)
-else:
-    print("INVAILD UNIT")
+#temperature=float(input("Enter the temperature:"))
+#units=str(input("Enter the units(fahrenhiet/Celsius):"))
+#
+#if units=="fahrenhiet":
+#    print("the temperature in Celsius is:")
+#    print((temperature-32)*(5/9))
+#if units=="Celsius":
+#    print("temperature in fahrenhite is:")
+#    print((temperature*(9/5))+32)
+#else:
+#    print("INVAILD UNIT")
 
 #Question 5
-number=float(input("Enter the number"))
-operation=str(input("Enter the operation:"))
+#number=float(input("Enter the number"))
+#operation=str(input("Enter the operation:"))
 
-if operation=="Square root":
-    print("Square root of the number is:")
-    print(number**(1/2))
-elif operation=="cube root":
-    print("Cube root of the number is:")
-    print(number**(1/3))
-else:
-    print("INVALID OPERATION")
+#if operation=="Square root":
+#    print("Square root of the number is:")
+#    print(number**(1/2))
+#elif operation=="cube root":
+#    print("Cube root of the number is:")
+#    print(number**(1/3))
+#else:
+#    print("INVALID OPERATION")
 
 #Question 6
 first_number=int(input("Enter your first number:"))
@@ -90,7 +102,10 @@ D= ((b**2)-(4*a*c))**(1/2)
 root_1= ((-b)+(D))/2*a
 root_2= ((-b)-(D))/2*a 
 print("Roots of the equation is:")
-print(f"First root is:{root_1}\nsecond root is:{root_2}")
+print(f"the first root is:{root_1}\nthe second root is:{root_2}")
+
+
+
 
 
           
